@@ -1,6 +1,6 @@
 ---
 
-# Mini Kitaplık — Okul Kulübü Ödevi
+
 Mini Kitaplık, okul kulübü için basit bir web uygulamasıdır. Özellikler:
 
 - Kitap listesi
@@ -12,7 +12,7 @@ Canlı demo (Vercel): https://<your-vercel-app>.vercel.app
 
 Gönderim formu:
 
-- Öğrenci Adı:
+- Öğrenci Adı: beyza uysal
 - Proje GitHub Repo: (bu repo)
 - Vercel Linki: https://<your-vercel-app>.vercel.app
 - Kısa Açıklama: Basit kitap listesi, arama, kategori filtreleme ve favori yönetimi.
