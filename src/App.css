@@ -1,0 +1,129 @@
+/* Basic app layout */
+.app {
+	max-width: 1000px;
+	margin: 24px auto;
+	padding: 0 16px;
+}
+
+.app-header h1 {
+	margin: 0 0 12px 0;
+	font-size: 1.6rem;
+}
+
+.controls {
+	display: flex;
+	gap: 12px;
+	margin-bottom: 16px;
+	align-items: center;
+}
+
+.arama-cubugu {
+	flex: 1 1 300px;
+	padding: 8px 10px;
+	font-size: 1rem;
+}
+
+.kategori-filtre {
+	padding: 8px 10px;
+}
+
+.main {
+	display: grid;
+	grid-template-columns: 1fr 260px;
+	gap: 20px;
+}
+
+.liste-alanı h2 {
+	margin-top: 0;
+}
+
+.kitap-listesi {
+	list-style: disc inside;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.kitap-listesi-item {
+	margin: 8px 0;
+}
+
+.kitap-karti {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	background: #fff;
+}
+
+.kitap-karti.highlight {
+	border: 3px solid #f7c6d7; /* soft pink thicker border */
+	position: relative;
+	background: #fff0f6; /* soft pink background */
+}
+
+.kategori-yildiz {
+	position: absolute;
+	top: 6px;
+	right: 8px;
+		background: #cdeef8; /* baby-blue background */
+		color: #0b66ff; /* vivid blue for the star */
+	border-radius: 50%;
+	width: 26px;
+	height: 26px;
+	display: inline-grid;
+	place-items: center;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
+.kategori-yildiz svg {
+	display: block;
+	width: 14px;
+	height: 14px;
+}
+
+.kitap-baslik {
+	margin: 0 0 6px 0;
+	font-size: 1.05rem;
+}
+
+.kitap-yazar,
+.kitap-kategori {
+	margin: 0;
+	font-size: 0.9rem;
+	color: #555;
+}
+
+.kitap-kategori {
+	cursor: pointer;
+	text-decoration: underline dotted rgba(0,0,0,0.12);
+}
+
+.favori-btn {
+	padding: 8px 10px;
+	border: none;
+	background: #0070f3;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.favori-paneli {
+	border: 1px solid #eee;
+	padding: 12px;
+	border-radius: 6px;
+	background: #fafafa;
+}
+
+.favori-paneli h4 {
+	margin-top: 0;
+}
+
+@media (max-width: 760px) {
+	.main {
+		grid-template-columns: 1fr;
+	}
+}
+
