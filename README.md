@@ -32,3 +32,5 @@ npm start
 ```
 
 Tarayıcıda http://localhost:3000 açın.
+https://mini-kitaplik.vercel.app
+
